@@ -56,6 +56,10 @@
   border-radius: 5px;
 }
 
+.redirect{
+  text-align: center;
+}
+
 .form select{
   width: 30%;
   justify-content: space-between;

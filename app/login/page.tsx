@@ -18,7 +18,7 @@ function Loginform() {
     <div className={styles.form}>
       <input type="text" placeholder="nickname or Email" />
       <input type="password" placeholder="password" />
-      <p>don't have account <Link href={"/register"}> register</Link></p>
+      <p className={styles.redirect}>don't have account <Link href={"/register"}> register</Link></p>
       <input type="button" value="submit" />
     </div>
   );

@@ -81,7 +81,7 @@ function Registerform() {
       </div>
       <input type="password" placeholder="password" />
       <input type="password" placeholder="image" />
-      <p>already have account <Link href={"/login"}> register</Link></p>
+      <p className={styles.redirect}>already have account <Link href={"/login"}> register</Link></p>
       <input type="button" value="submit" />
     </div>
   );
