@@ -36,9 +36,11 @@ function Registerform() {
   }
   return (
     <div className={styles.form}>
-      <input type="text" placeholder="nickname" />
-      <input type="email" placeholder="Email" />
-      
+      <div className={styles.split}>
+        <input type="text" placeholder="first name" />
+        <input type="text" placeholder="last name" />
+      </div>
+
       <div>
         <label>Birthday</label>
         <div className={styles.split}>
@@ -75,13 +77,21 @@ function Registerform() {
           </select>
         </div>
       </div>
-      <div className={styles.split}>
-        <input type="text" placeholder="first name" />
-        <input type="text" placeholder="last name" />
-      </div>
+      <input type="email" placeholder="Email" />
+      <input type="text" placeholder="nickname" />
       <input type="password" placeholder="password" />
-      <input type="password" placeholder="image" />
-      <p className={styles.redirect}>already have account <Link href={"/login"}> register</Link></p>
+      <label htmlFor="postImage" className={styles.imageUp}>
+        <i className="fa-regular fa-image"></i> choose avatar Image/GIF
+      </label>
+      <input
+        type="file"
+        id="postImage"
+        className={styles.imageUpload}
+        accept="image/*,image/gif"
+      />
+      <p className={styles.redirect}>
+        already have account <Link href={"/login"}> register</Link>
+      </p>
       <input type="button" value="submit" />
     </div>
   );

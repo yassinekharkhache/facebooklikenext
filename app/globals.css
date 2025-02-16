@@ -1,0 +1,20 @@
+:root {
+    --background: #ffffff;
+    --primary-color: #000000;
+    --secondary-color: #808080;
+    --secondary-hover: #afafaf;
+    --third-color: #e4e4e4;
+    --lightGray-color: #f4f4f4;
+    --btn-color: #81be1c;
+    --danger-color: #ee5459;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: red;
+}

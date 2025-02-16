@@ -92,3 +92,20 @@
     margin: 0 0px;
   }
 }
+
+.imageUpload{
+  display: none;
+}
+
+.imageUp {
+  padding: 10px 15px;
+  margin: 5px 0;
+  position: relative;
+  width: 100%;
+  background-color: var(--btn-color);
+  color: var(--background);
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+}

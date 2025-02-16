@@ -4,6 +4,8 @@
   --white-color: #fff;
   --border-color: #aaa;
   --shadow-color: rgba(0, 0, 0, 0.1);
+  --btn-color: #81be1c;
+  --background : #f4f4f4;
 }
 * {
   margin: 0;

@@ -1,0 +1,30 @@
+.leftSidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background: var(--background);
+  padding: 20px;
+}
+
+.logo a img {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.nav .menuItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.secondary {
+  color: var(--secondary-color);
+}
+
+.danger {
+  color: var(--danger-color);
+}
