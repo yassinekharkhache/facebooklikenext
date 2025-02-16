@@ -1,0 +1,70 @@
+.imageUpload {
+    display: none;
+}
+
+.newPost textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid var(--third-color);
+    resize: none;
+    border-radius: 8px;
+}
+
+.newPost{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: #AAA 1px solid;
+    border-radius: 8px;
+}
+
+.imgPrivacyPost {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageUp {
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    height: 40px;
+    padding: 10px 15px;
+    background-color: var(--btn-color);
+    color: var(--background);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.imgPrivacyPost select {
+    background-color: var(--background);
+    text-align: center;
+    width: 40%;
+    height: 40px;
+    font-size: 16px;
+    outline: 0;
+    border: 1px solid var(--third-color);
+    border-radius: 8px;
+}
+
+.newPost button {
+    align-self: flex-end;
+    padding: 6px 15px;
+    margin-bottom: 2px;
+}
+
+.btn{
+    height: 40px;
+    width: 20%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btnGreen{
+    background: var(--btn-color);
+    color: var(--background);
+}

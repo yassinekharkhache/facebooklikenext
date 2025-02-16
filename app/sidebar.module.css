@@ -28,3 +28,8 @@
 .danger {
   color: var(--danger-color);
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 18% 54% 28%;
+}

@@ -1,0 +1,10 @@
+.searchBar input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid var(--third-color);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', FontAwesome, sans-serif;
+}
